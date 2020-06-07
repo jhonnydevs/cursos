@@ -315,7 +315,7 @@
             <div class="sidebar-box ftco-animate">
               <h3>Otros Cursos</h3>
               <div class="block-21 mb-4 d-flex">
-                <a class="blog-img mr-4" style="background-image: url(images/image_1.jpg);"></a>
+                <a class="blog-img mr-4" style="background-image: url(images/cursoNodeJS.jpg);"></a>
                 <div class="text">
                   <h3 class="heading"><a href="#">Node JS desde cero a experto</a></h3>
                   <div class="meta">
@@ -326,7 +326,7 @@
               </div>
 
               <div class="block-21 mb-4 d-flex">
-                <a class="blog-img mr-4" style="background-image: url(images/image_2.jpg);"></a>
+                <a class="blog-img mr-4" style="background-image: url(images/cursoFlutter.jpg);"></a>
                 <div class="text">
                   <h3 class="heading"><a href="#">Flutter: Desarrollo apps para IOS y Android</a></h3>
                   <div class="meta">
@@ -337,7 +337,7 @@
               </div>
 
               <div class="block-21 mb-4 d-flex">
-                <a class="blog-img mr-4" style="background-image: url(images/image_3.jpg);"></a>
+                <a class="blog-img mr-4" style="background-image: url(images/flutterAnimaciones.gif);"></a>
                 <div class="text">
                   <h3 class="heading"><a href="#">Flutter: Curso nivel experto y animaciones</a></h3>
                   <div class="meta">
@@ -348,7 +348,7 @@
               </div>
 
               <div class="block-21 mb-4 d-flex">
-                <a class="blog-img mr-4" style="background-image: url(images/image_3.jpg);"></a>
+                <a class="blog-img mr-4" style="background-image: url(images/cursoSpringAngular.jpg);"></a>
                 <div class="text">
                   <h3 class="heading"><a href="#">Microservicios con Spring Cloud y Angular 9</a></h3>
                   <div class="meta">
@@ -426,4 +426,29 @@
   <script src="js/main.js"></script>
     
   </body>
+  <div id="fb-root"></div>
+  <script>
+    window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v7.0'
+    });
+    };
+
+    (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/es_ES/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+  <!-- Your Chat Plugin code -->
+  <div class="fb-customerchat"
+    attribution=setup_tool
+    page_id="108987747507758"
+theme_color="#0084ff"
+logged_in_greeting="Hola, como estas?, en que puedo ayudarte, en que curso estas interesado"
+logged_out_greeting="Hola, como estas?, en que puedo ayudarte, en que curso estas interesado">
+  </div>
 </html>
